@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabbirrifat.tictactoe.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nightw"
+        >
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="430dp"
+            android:orientation="vertical"
+            android:paddingLeft="60dp"
+            android:paddingTop="40dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Tic Tac Toe"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+
+
+                />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bu1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/bu2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/bu3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bu4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/bu5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/bu6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bu7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/bu8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                    <Button
+                        android:id="@+id/bu9"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/woodbut"
+                        android:onClick="buClick"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="resetbu"
+            android:textColor="@color/white"
+            android:layout_marginBottom="22dp"
+            android:text="Restart"
+            android:background="@color/brown"
+
+            />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
